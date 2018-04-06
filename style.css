@@ -1,0 +1,81 @@
+:root{
+  font-family: 'family Lobster',
+  color: grey,
+  padding:2em
+}
+
+body{
+height:100vh;
+display:flex
+}
+
+
+#display{
+  margin: auto;
+  padding: 1.5em;
+}
+
+#btns{
+  background: midnightblue;
+  border-radius: 20px;
+  font-family: Arial;
+  color: black;
+  font-size: 20px;
+  padding: 20px ;
+  text-decoration: none;
+}
+
+#btns:hover {
+  background: pink;
+  text-decoration: none;
+}
+
+
+#btn{
+  background: green;
+  border-radius: 20px;
+  font-family: Arial;
+  color:black;
+  font-size: 20px;
+  padding: 20px;
+  text-decoration: none;
+}
+
+#btn:hover {
+  background: pink;
+  text-decoration: none;
+}
+
+.container{
+height:400px;
+width:296px;
+margin: auto;
+padding:10px;
+display: grid;
+grid-templete-colums:repeat(4, 1fr);
+grid-auto-rows:25px 80px 48px 48px 48px 48px 48px;
+grid-gap:10px;
+}
+
+div{
+border:1px solid black;
+}
+
+#heading{
+grid-colum:span 4;
+text-aling: center;
+
+}
+
+#screen{
+background:linen;
+grid-colum:span 4;
+
+}
+
+#equals{
+grid-row: span 2;
+}
+#zero{
+grid-colum: span 2;
+}
